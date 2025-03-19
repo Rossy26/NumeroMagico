@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Número Mágico</title>
+    <link rel="icon" href="assets/icono-pag.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego del Número Mágico</h1>
+        <p>Adivina un número entre 1 y 100.</p>
+        <input type="number" id="ingresar-numero" min="1" max="100" placeholder="Ingresa un número">
+        <button id="intento">Intentar</button>
+        <p id="mensaje"></p>
+        <img id="gif-resultado" src="" alt="Resultado">
+        <p><strong>Intentos previos:</strong> <span id="intentos-previos">Ninguno</span></p>
+        <p><strong>Intentos restantes:</strong> <span id="intentos-restantes">10</span></p>
+        <button id="reiniciarJuego" >Volver a jugar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
