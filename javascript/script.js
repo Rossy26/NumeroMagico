@@ -39,7 +39,7 @@ document.getElementById("intento").addEventListener("click", function() {
     }
 });
 
-//desabilita el campo de entrada y el botón de intento y muestra el botón de intento
+//desabilita el campo de entrada y el botón de intento
 function finalizarJuego() {
     document.getElementById("ingresar-numero").disabled = true;
     document.getElementById("intento").disabled = true;
