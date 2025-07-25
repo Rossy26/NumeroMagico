@@ -11,4 +11,3 @@ HTML: estructura básica del sitio.
 CSS: estilos para una interfaz atractiva y fácil de usar.
 JavaScript: lógica del juego, generación del número aleatorio, validación de entradas y manejo de eventos.
 
-El link para entrar a la página es el siguiente: https://rossy26.github.io/NumeroMagico/
